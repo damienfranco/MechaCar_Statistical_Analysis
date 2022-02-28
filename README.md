@@ -18,31 +18,31 @@ To assess the relationship between all variables, a Multiple Linear Regression a
 The following are the summary statistics from the total collection of Suspension Coil data.
 
 
-![Summary Statistics All](images/MechaCarFig2.PNG)
+![Summary Statistics All](https://github.com/damienfranco/MechaCar_Statistical_Analysis/blob/main/images/MechaCarFig2.png)
 
 When all coils are taken together, the variance is 62.3 pounds per square inch (psi), which is below the requirement of 100 psi. When the coils are sorted by lot IDs, however, Lot3's deviation from the upper limit of 100 psi becomes evident.
 
-![Summary Statistics by Lot](images/MechaCarFig3.PNG)
+![Summary Statistics by Lot](https://github.com/damienfranco/MechaCar_Statistical_Analysis/blob/main/images/MechaCarFig3.png)
 
 ## T-tests on Suspension Coils
 
 ### Summary Statistics for All Manufacturing Lots
 When we compare the total population's summary statistics seen in the figure below with those of the nominal (mu=1500) means, we see that the calculated p-value is 0.06. When compared to the test value of 0.05, the calculated p-value is greater than the test statistic. As a result, we do not have sufficient evidence to reject the stated null hypothesis and conclude that the two means are statistically similar. 
 
-![T-test Summary for All Coils](images/MechaCarFig4.PNG)
+![T-test Summary for All Coils](https://github.com/damienfranco/MechaCar_Statistical_Analysis/blob/main/images/MechaCarFig4.png)
 
 ### Summary Statistics of the Coils by Lot
  *Lot1:* The statistical summary of the T-test for Lot1 indicates that the sample mean is greater than the nominal mean of 1500 psi, with a calculated p-value of 1.0. The calculated values are greater than or equal to 0.05 if we compare this p-value to the conventional test statistic of 0.05. The meaning of this conclusion is that there isn't enough evidence to reject the null hypothesis; therefore, we would rule out depletion and say that the means are statistically comparable.
 
-![T-test Summary for Lot1 Coils](images/MechaCarFig5.PNG) 
+![T-test Summary for Lot1 Coils](https://github.com/damienfranco/MechaCar_Statistical_Analysis/blob/main/images/MechaCarFig5.png) 
 
 *Lot2:* The calculated p-value from the summary statistics for Lot2 is 0.06, which is greater than the test statistic of 0.05. As a result, we will reject the null hypothesis and conclude that the two means are statistically comparable.
 
-![T-test Summary for Lot2 Coils](images/MechaCarFig6.PNG) 
+![T-test Summary for Lot2 Coils](https://github.com/damienfranco/MechaCar_Statistical_Analysis/blob/main/images/MechaCarFig6.png) 
 
 *Lot3:* In the example of Lot3, the p-value is 0.04, which is less than the test statistic of 0.05. We will fail to reject the null hypothesis in this case and declare that the two means are statistically different.
 
-![T-test Summary for Lot3 Coils](images/MechaCarFig7.PNG) 
+![T-test Summary for Lot3 Coils](https://github.com/damienfranco/MechaCar_Statistical_Analysis/blob/main/images/MechaCarFig7.png) 
 
 
 ## Study Design: MechaCar vs. Competition
