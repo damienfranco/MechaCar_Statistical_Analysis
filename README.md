@@ -6,7 +6,7 @@ Analyze and evaluate the production data from AutosRU's prototype MechaCar in an
 
 To assess the relationship between all variables, a Multiple Linear Regression analysis was done on the data. The findings showed how Miles per Gallon (MPG) changed as a result of variations in Vehicle Length, Vehicle Weight, Spoiler Angle, Ground Clearance, and Drive Train (AWD). The following are some of the highlights from the Summary Statistics.
 
-![Summary Statistics MechaCar](images/MechaCarFig1.PNG)
+![Summary Statistics MechaCar](https://github.com/damienfranco/MechaCar_Statistical_Analysis/blob/main/images/MechaCarFig1.png)
 
 - What variables/coefficients gave a non-random amount of variation to the mpg values in the data set? There are two variables that meet or exceed the test statistic of 0.05 threshold - Vehicle Length and Ground Clearance. The Intercept has a p-value of less than 0.05, which suggests that there are additional variables that influence the car's mpg.
 
